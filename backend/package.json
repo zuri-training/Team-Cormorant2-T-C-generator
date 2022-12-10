@@ -1,0 +1,17 @@
+{
+  "name": "zuri-project",
+  "version": "1.0.0",
+  "description": "<h4> A platform that allows users to generate t&amp;c and privacy policy designed by Team Cormorant2. </h4>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0"
+  }
+}
