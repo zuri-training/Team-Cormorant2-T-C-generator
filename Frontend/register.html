@@ -11,7 +11,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@400;600&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="./CSS/login.css" />
+    <link rel="stylesheet" href="./CSS/register.css" />
 </head>
 
 <!-- <a href="style.css"> style.css</a> -->
@@ -27,32 +27,35 @@
       <!-- </div> -->
     </header>
 
+
     <div id="logo">
-        <img src="/Team-Cormorant2-t_c_gen/images/logo.png"  alt="display of site logo">
+        <img src="/Team-Cormorant2-t_c_gen/images/logo.png" alt="display of site logo">
     </div>
     
     <section id="form-section">
       <div id="signin">
-        <h2>Welcome Back</h2>
+        <h2>Create An Account</h2>
         <form action="">
-          <label for="email" id="email-label">Email</label><br />
-          <input type="email" name="email" id="email" class="form-input email" placeholder="Enter mail" /><br />
+            <label for="yourname" id="name-label">Your Name</label><br />
+            <input type="text" name="name" id="name" class="form-input name" placeholder="First and Last Name" /><br />
+            <label for="email" id="email-label">Email</label><br />
+            <input type="email" name="email" id="email" class="form-input email" placeholder="Email" /><br />
           <label for="password" id="password-label">Password</label><br />
-          <input type="password" name="password" id="password" class="form-input password" placeholder="Enter Password" /><br />
-
-          <p><a href="forgot.html" id="forgot-password"> Forgot Password?</a></p>
+          <input type="password" name="password" id="password" class="form-input password" placeholder="Re-enter Password" /><br />
+          <label for="password" id="password-label">Re-enter Password</label><br />
+          <input type="password" name="password" id="password" class="form-input password" placeholder="At least 8 character" /><br />
         </form>
       </div>
       
       <div class="signin-btn__container">
-        <button class="signin-btn" type="submit">Log in</button>
+        <button class="signin-btn" type="submit">Sign In</button>
         <p class="signup-text">
-          Don't have an account? <a href="register.html" class="cta"><b>Register</b></a>
+          Don't have an account? <a href="register.html" class="cta"><b>Log In</b></a>
         </p>
       </div>
             
       <div id="image-frame">
-        <img src="/Team-Cormorant2-t_c_gen/images/backtowork.png" alt="image illustration of welcome in" class="img" />
+        <img src="/Team-Cormorant2-t_c_gen/images/createaccount.png" alt="image illustration of creating account" class="img" />
       </div>
     </section>
     
