@@ -80,7 +80,7 @@ html, body {
     flex-grow: 0;
   }
 
-  #name{
+  #fullname{
     box-sizing: border-box;
     width: 473px;
     height: 49px;
@@ -159,6 +159,19 @@ html, body {
     flex-grow: 1;
   }
 
+  #renterPassword {
+    box-sizing: border-box;
+    width: 473px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    border-radius: 6px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+  }
+
   #re-enter password-label {
     width: 133px;
     height: 21px;
@@ -204,8 +217,8 @@ html, body {
     position: absolute;
     width: 512px;
     height: 39px;
-    left: 62px;
-    top: 685px;
+    left: -30px;
+    top: 415px;
     background: #2D80E5;
     border-color: #2D80E5;
     border-radius: 6px;
@@ -215,8 +228,8 @@ html, body {
     position: absolute;
     width: 229px;
     height: 21px;
-    left: 206px;
-    top: 748px;
+    left: 190px;
+    top: 588px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;

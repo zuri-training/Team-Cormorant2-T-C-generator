@@ -20,7 +20,8 @@ const authenticationRouter = require("./router/authRoutes");
 
 app.use("/api/auth", authenticationRouter)
 
-const port = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000;
+
 
 const startServer = () => {
     try {
@@ -31,4 +32,8 @@ const startServer = () => {
     }
 }
 
+
 startServer();
+
+app.listen(PORT,() => console.log("serving on port ${port}"));
+
