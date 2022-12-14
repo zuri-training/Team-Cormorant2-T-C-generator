@@ -3,6 +3,7 @@ const { StatusCodes } = require("http-status-codes");
 
 
 const createTC = async (req,res) => {
+    const { } = req.body
     const { userId } = req.user
     req.body.createdBy = userId;
     const T_C = await TermsConditions.create(req.body)

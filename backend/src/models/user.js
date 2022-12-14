@@ -19,7 +19,7 @@ const userSchema = new mongoose.Schema({
         minlength: 8,
         required: [true, "Please Provide a Password"]
     }
-},{timestamps:true})
+},{timestamps:true})  
 
 userSchema.pre('save', async function(){
     const salt = await bcrypt.genSalt(10);
