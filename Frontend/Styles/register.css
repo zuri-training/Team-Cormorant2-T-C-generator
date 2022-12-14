@@ -32,7 +32,7 @@ html, body {
   #signin {
     position: absolute;
     width: 580px;
-    height: 490px;
+    height: 550px;
     left: 48px;
     top: 165px;
     background: #FFFFFF;
@@ -42,31 +42,32 @@ html, body {
   
   #signin h2 {
     position: absolute;
-    width: 268px;
+    width: 500px;
     height: 42px;
-    left: 33px;
-    top: 31px;
+    left: 50px;
+    top: 41px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 30px;
     line-height: 42px;
     color: #0F2B4C; 
   }
   
   input {
     padding-left: 20px;
+    margin-bottom: 8px;
   }
   
   form {
     position: absolute;
     width: 219px;
     left: 50px;
-    top: 100px;
+    top: 120px;
   }
-  
-  #yourname{
-    width: 78px;
+
+  #name-label {
+    width: 38px;
     height: 21px;
     font-family: 'Poppins';
     font-style: normal;
@@ -77,6 +78,19 @@ html, body {
     flex: none;
     order: 0;
     flex-grow: 0;
+  }
+
+  #fullname{
+    box-sizing: border-box;
+    width: 473px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    border-radius: 6px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;;
   }
 
   #form-input {
@@ -145,6 +159,19 @@ html, body {
     flex-grow: 1;
   }
 
+  #renterPassword {
+    box-sizing: border-box;
+    width: 473px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    border-radius: 6px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+  }
+
   #re-enter password-label {
     width: 133px;
     height: 21px;
@@ -188,11 +215,12 @@ html, body {
     padding: 13px 24px;
     gap: 10px;
     position: absolute;
-    width: 512px;
+    width: 470px;
     height: 39px;
-    left: 62px;
-    top: 685px;
+    left: 0px;
+    top: 350px;
     background: #2D80E5;
+    border-color: #2D80E5;
     border-radius: 6px;
   }
   
@@ -200,8 +228,8 @@ html, body {
     position: absolute;
     width: 229px;
     height: 21px;
-    left: 206px;
-    top: 748px;
+    left: 190px;
+    top: 588px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;

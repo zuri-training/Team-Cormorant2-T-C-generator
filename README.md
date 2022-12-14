@@ -50,4 +50,18 @@
   <li> can save data and download later </li
   </ul>
 
+<h3> Meet The Team </3> <br>
 
+<a href=""><p>Oshifade Olawale</p></a>
+<a href=""><p>Joshua Oluwatimilehin</p></a>
+<a href=""><p>Oluwadamilola Falodun</p></a>
+<a href=""><p>Gbenro Ogunyomi</p></a>
+<a href=""><p>Johnson Adeyemi</p></a>
+<a href=""><p>Jubril Akanni</p></a>
+<a href=""><p>Juliet Ebili</p></a>
+<a href=""><p>Olawumi Ladele</p></a>
+<a href=""><p>Semiat Boladale</p></a>
+<a href=""><p>Solomon Shonowo</p></a>
+<a href=""><p>Gideon Ozegbe</p></a>
+<a href=""><p>Sinzi Colombe</p></a>
+<a href=""><p>Whevoesa Meshack</p></a>
