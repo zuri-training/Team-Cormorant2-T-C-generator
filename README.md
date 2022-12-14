@@ -7,6 +7,7 @@
     <li> Google Docs  </li>
     <li>  Visual Studio Code </li>
     <li>  Github </li>
+    <li>  Vercel </li>
   </ul>
  
 <h3> Product Design </h3>
