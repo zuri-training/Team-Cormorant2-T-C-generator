@@ -13,7 +13,7 @@ a {
 
 header {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* margin: 10px; */
     background: #eef1f4;
     /* top: 0;
@@ -24,9 +24,19 @@ header img {
     margin: 2px 30px -18px;
 }
 
+header div {
+    margin-left: 40;
+}
+
+header p {
+    margin: 25px;
+    margin-left: 65%;
+}
+
 header .img2 {
     width: 5%;
     height: 10%;
+    /* margin-left: 68%; */
 }
 
 .sidenav {
