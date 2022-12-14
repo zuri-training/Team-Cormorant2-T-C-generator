@@ -31,7 +31,7 @@ html, body {
     top: 24px;
   }
   
-  #signin {
+  #login {
     position: absolute;
     width: 576px;
     height: 350px;
@@ -42,7 +42,7 @@ html, body {
     border-radius: 8px;  
   }
   
-  #signin h2 {
+  #login h2 {
     position: absolute;
     width: 219px;
     height: 42px;
@@ -67,6 +67,13 @@ html, body {
     top: 100px;
   }
   
+  /* form {
+    position: absolute;
+    width: 219px;
+    left: 50px;
+    top: 100px;
+  }
+   */
   #email-label {
     width: 38px;
     height: 21px;
