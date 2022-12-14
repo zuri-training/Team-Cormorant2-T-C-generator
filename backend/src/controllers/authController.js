@@ -5,10 +5,13 @@ const BadRequestError = require('../../errors/badRequestError');
 
 
 const signUp = async (req,res) => {
-    const { fullname, email, password } = req.body;
-    if ( !fullname || !email || !password ){
+    const { fullname, email, password, passwordCheck } = req.body;
+    if ( !fullname || !email || !password || !passwordCheck ){
         res.status(400).json({msg:"fullname, password, email are required"})
         // throw new BadRequestError("fullname, password, email are required")
+    }
+    if( password !== passwordCheck ){
+        res.status(400).json({msg:"passwords do not match"})
     }
     const userExists = await User.findOne({email})
     if(userExists){
