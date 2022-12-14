@@ -1,30 +1,20 @@
 * {
   margin: 0;
-  box-shadow: none;
+  padding: 0;
+}
+
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* start of navigation */
-
-#nav-links a:hover {
-  color: white;
-  text-shadow: 2px 2px 10px black;
-}
-
-#login:hover {
-  background: rgba(0, 0, 0, 0.15);
-  color: white;
-}
-
-#register:hover {
-  background: rgba(21, 142, 255, 0.5);
+  width: 100%;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* =========================Start of dropdown CSS */
@@ -37,7 +27,7 @@ a {
   display: none;
   position: absolute;
   width: 250px;
-  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown:hover .dropdown-content {
@@ -73,6 +63,8 @@ a {
 nav {
   width: 95%;
   height: fit-content;
+  /* left: 0px;
+  top: 0px; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -86,6 +78,11 @@ nav {
   text-align: center;
   margin-right: 16px;
   text-decoration: none;
+}
+
+#nav-links a:hover {
+  color: white;
+  text-shadow: 2px 2px 10px black;
 }
 
 #nav-btn {
@@ -110,12 +107,17 @@ nav {
   padding: 13px 24px;
   width: 80px;
   height: 20px;
-  left: 950px;
-  top: 28px;
+  /* left: 950px; */
+  /* top: 28px; */
   background: #eef1f4;
   border: 1px solid #2d80e5;
   color: #2d80e5;
   border-radius: 6px;
+}
+
+#login:hover {
+  background: rgba(0, 0, 0, 0.15);
+  color: white;
 }
 
 #register {
@@ -125,167 +127,43 @@ nav {
   padding: 13px 24px;
   width: 80px;
   height: 20px;
-  left: 1085px;
-  top: 28px;
+  /* left: 1085px; */
+  /* top: 28px; */
   background: #2d80e5;
   color: white;
   border-radius: 6px;
 }
 
+#register:hover {
+  background: rgba(21, 142, 255, 0.5);
+}
+
+.btn {
+  background: rgba(21, 142, 255, 1);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+}
+
 /* end of nav-bar */
 
-#main {
-  box-sizing: border-box;
-  width: 100%;
+/* start of main */
+
+#main-content {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.firstsect-div {
-  width: 80%;
-  display: flex;
-  /* flex-wrap: wrap; */
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 50px;
-  margin-bottom: 80px;
-}
-
-.senddiv h3 {
-  font-size: 30px;
-  padding-bottom: 10px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 54px;
-  color: #0f2b4c;
-}
-
-.senddiv p {
-  font-size: 13px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #555555;
-}
-
-#contact-form,
-.senddiv {
-  width: 48%;
-}
-
-.firstsect-div form {
-  box-sizing: border-box;
   width: 100%;
-  box-shadow: 0px 0.6px 5px 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  padding: 30px;
 }
 
-#fullname,
-#email {
-  margin-bottom: 20px;
-  font-family: "Poppins", sans-serif;
-  font-size: 12px;
-  border: 1px solid #d5d5d5;
-  height: 30px;
-
-  width: 100%;
-  color: #d5d5d5;
-  padding-left: 7px;
-  border-radius: 4px;
-}
-
-.firstsect-div form textarea {
-  width: 100%;
-  height: 190px;
-  border: 1px solid #d5d5d5;
-  color: #d5d5d5;
-  border-radius: 4px;
-}
-
-.firstsect-div form textarea::placeholder {
-  color: #d5d5d5;
-  padding-left: 7px;
-}
-
-#button {
-  background: #2d80e5;
-  /* width: 100%; */
-  /* height: 50px; */
-  border-radius: 4px;
-  color: #fff;
-  margin-top: 50px;
-  padding: 1px 20px 0;
-  font-size: 13px;
-}
-
-.secondsect-div {
+#ist-page1 {
   width: 80%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-
-/* .secondsect-div .contactdiv {
-  margin: 120px 130px 20px;
-} */
-
-.secondsect-div .contactdiv img {
-  width: 4%;
-  height: 4%;
-  padding-bottom: 15px;
-}
-
-.secondsect-div .contactdiv .image1 {
-  margin-top: 30px;
-}
-
-.secondsect-div .contactdiv .divcontact1 {
-  display: flex;
-}
-
-.secondsect-div .contactdiv .divcontact2 {
-  display: flex;
-}
-
-.secondsect-div .contactdiv .divcontact3 {
-  display: flex;
-}
-
-.secondsect-div .contactdiv a {
-  color: #1d1d1d;
-}
-
-.secondsect-div .contactdiv .divcontact1 a p {
-  font-size: 15px;
-  font-weight: 500;
-  margin: 30px 20px 0;
-}
-
-.secondsect-div .contactdiv .divcontact2 a p {
-  font-size: 15px;
-  font-weight: 500;
-  margin: 3px 20px 0;
-}
-
-.secondsect-div .contactdiv .divcontact3 a p {
-  font-size: 15px;
-  font-weight: 500;
-  margin: 1px 20px 0;
-}
-
-.secondsect-div .sectimage {
-  margin-left: -50px;
+  justify-content: space-around;
 }
 
 /* footer styling */
@@ -447,6 +325,79 @@ footer a {
 }
 
 @media screen and (max-width: 600px) {
+  #documentation-section {
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+
+  #testimonial-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #testimonial-section h2 {
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  .card {
+    margin-bottom: 10px;
+  }
+
+  #services {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-inner {
+    margin-bottom: 5%;
+  }
+  .feature {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #rafiki3 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #features-location {
+    width: 90%;
+  }
+
+  #feature-img {
+    height: 100px;
+    width: 100px;
+  }
+
+  #bus-inside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .bus-type-cards {
+    margin-bottom: 20px;
+  }
+
+  #header-section {
+    box-sizing: border-box;
+    background: white;
+    display: flex;
+    flex-direction: column;
+  }
+
   nav {
     width: 95%;
     height: fit-content;
@@ -462,34 +413,6 @@ footer a {
   #nav-btn {
     margin-top: 20px;
   }
-
-  /* body */
-
-  .firstsect-div {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 80px;
-  }
-
-  #contact-form,
-  .senddiv {
-    width: 100%;
-    margin-top: 20px;
-  }
-
-  .secondsect-div {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  /* footer */
 
   #top-footer {
     width: 100%;
