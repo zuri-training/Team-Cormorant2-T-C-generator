@@ -1,76 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./Styles/login.css" />
-  </head>
 
-  <!-- <a href="style.css"> style.css</a> -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./Styles/login.css" />
+</head>
 
-  <body>
+<!-- <a href="style.css"> style.css</a> -->
+
+<body>
+
+  <div class="main">
+    <header id="browser">
+      <!-- <div id="browser"> -->
+        <!-- <form id="searchbar" action="#"> -->
+          <!-- <input id="search-input" type="text" placeholder="websitename.com" name="search"> -->
+        <!-- </form> -->
+      <!-- </div> -->
+    </header>
+
     <div id="logo">
-      <div id="zuri-logo">
-        <a href="index.html"
-          ><img src="./images/logo.png" alt="display of site logo"
-        /></a>
+       <a href="index.html"><img src="./images/logo.png"  alt="display of site logo"></a> 
+    </div>
+    
+    <section id="form-section">
+      <div id="signin">
+        <h2>Welcome Back</h2>
+        <form action="">
+          <label for="email" id="email-label">Email</label><br />
+          <input type="email" name="email" id="email" class="form-input email" placeholder="Enter mail" /><br />
+          <label for="password" id="password-label">Password</label><br />
+          <input type="password" name="password" id="password" class="form-input password" placeholder="Enter Password" /><br />
+
+          <p><a href="forgot.html" id="forgot-password"> Forgot Password?</a></p>
+        </form>
       </div>
-    </div>
+      
+      <div class="signin-btn__container">
+        <a href="dashboard.html"> <button class="signin-btn" type="submit">Log in</button></a>
+        <p class="signup-text">
+          Don't have an account? <a href="register.html" class="cta"><b>Register</b></a>
+        </p>
+      </div>
+            
+      <div id="image-frame">
+        <img src="./images/backtowork.png" alt="image illustration of welcome in" class="img" />
+      </div>
+    </section>
+    
+        <script src="./Script/login.js"></script>
+  </div>
+</main>
+</body>
 
-    <div class="main">
-      <section id="form-section">
-        <div id="signin">
-          <form action="">
-            <h2>Welcome Back</h2>
-            <label for="email" id="email-label">Email</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              class="form-input email"
-              placeholder="Enter mail"
-            />
-            <label for="password" id="password-label">Password</label>
-            <input
-              type="password"
-              name="password"
-              id="password"
-              class="form-input password"
-              placeholder="Enter Password"
-            />
-
-            <p>
-              <a href="forgot.html" id="forgot-password"> Forgot Password?</a>
-            </p>
-          </form>
-
-          <div class="signin-btn-container">
-            <a class="signin-btn" href="dashboard.html">Log in</a>
-            <p class="signup-text">
-              Don't have an account?
-              <a href="register.html" class="cta"><b>Register</b></a>
-            </p>
-          </div>
-        </div>
-
-        <div id="image-frame">
-          <img
-            src="./images/backtowork.png"
-            alt="image illustration of welcome in"
-            class="img"
-          />
-        </div>
-      </section>
-
-      <script src="./Script/login.js"></script>
-    </div>
-  </body>
 </html>
