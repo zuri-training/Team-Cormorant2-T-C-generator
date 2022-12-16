@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,66 +10,86 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@400;600&display=swap"
     rel="stylesheet">
+
     <link rel="stylesheet" href="./Styles/register.css" />
-</head>
+  </head>
+  <!-- <a href="style.css"> style.css</a> -->
 
-<!-- <a href="style.css"> style.css</a> -->
-
-<body>
-
-  <div class="main">
-    <header id="browser">
-      <!-- <div id="browser"> -->
-        <!-- <form id="searchbar" action="#"> -->
-          <!-- <input id="search-input" type="text" placeholder="websitename.com" name="search"> -->
-        <!-- </form> -->
-      <!-- </div> -->
-    </header>
-
-
+  <body>
     <div id="logo">
-        <a href="index.html"><img src="./images/logo.png" alt="display of site logo"></a>  
+      <div id="zuri-logo">
+        <a href="index.html"
+          ><img src="./images/logo.png" alt="display of site logo"
+        /></a>
+      </div>
     </div>
-    
-    <section id="form-section">
-      <div id="signin">
-        <h2>Create An Account</h2>
-        <form action="" id="register">
-            <label for="yourname" id="name-label">Your Name</label><br />
-            <input type="text" name="fullname" id="fullname" class="form-input name" placeholder="First and Last Name" /><br />
-            <label for="email" id="email-label">Email</label><br />
-            <input type="email" name="email" id="email" class="form-input email" placeholder="Email" /><br />
-          <label for="password" id="password-label">Password</label><br />
-          <input type="password" name="password" id="password" class="form-input password" min="8" max="30" pattern="[a-zA-Z0-9]{8,}" placeholder= "At least 8 character (uppercase, lowercase and numbers only)" /><br />
-          <label for="password" id="password-label">Re-enter Password</label><br />
-          <input type="password" name="renterPassword" id="renterPassword" class="form-input password" min="8" max="30" pattern="[a-zA-Z0-9]{8,}"placeholder="Re-enter Password" /><br />
-          <div class="signin-btn__container">
-            <button class="signin-btn" type="submit">Sign In</button>
-             <!-- <a href="./login.html"> <button class="signin-btn" type="submit">Sign In</button></a> -->
-             <a href="#"> <button class="signin-btn" type="submit">Sign In</button></a>
-        </form>
-      </div>
-      
 
-      <div class="signin-btn__container">
-       <!-- <a href="./dashboard.html"> <button class="signin-btn" type="submit">Sign In</button></a> -->
+    <div class="main">
+      <section id="form-section">
+        <div id="signin">
+          
+          <form action="" id="register">
+            <h2>Create An Account</h2>
 
-        <p class="signup-text">
-          Have an account? <a href="./login.html" class="cta"><b>Log In</b></a>
-        </p>
-      </div>
-            
-      <div id="image-frame">
-        <img src="./images/createaccount.png" alt="image illustration of creating account" class="img" />
-      </div>
-    </section>
+            <label for="fullname" id="name-label">Your Name</label>
+            <input
+              type="text"
+              name="fullname"
+              id="fullname"
+              placeholder="First and Last Name"/>
+
+            <label for="email" id="email-label">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"/>
+
+            <label for="password" id="password-label">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              min="8"
+              max="30"
+              pattern="[a-zA-Z0-9]{8,}"
+              placeholder="At least 8 character (uppercase, lowercase and numbers only)"/>
+
+            <label for="password" id="re-enter-password-label">Re-enter Password</label>
+            <input
+              type="password"
+              name="renterPassword"
+              id="re-enter-password"
+              min="8"
+              max="30"
+              pattern="[a-zA-Z0-9]{8,}"
+              placeholder="Re-enter Password"
+            />
+          </form>
 
 
-    <script src="./Script/server.js"></script>
+          <div class="signin-btn-container">
+            <a class="signin-btn" href="./dashboard.html">Sign In</button></a>
 
-        <script src="./Script/register.js"></script>
-  </div>
-</main>
-</body>
+            <p class="signup-text">
+              Have an account?
+              <a href="./login.html" class="cta"><b>Log In</b></a>
+            </p>
+          </div>
+        </div>
 
+        <div id="image-frame">
+          <img
+            src="./images/createaccount.png"
+            alt="image illustration of creating account"
+            class="img"
+          />
+        </div>
+      </section>
+
+      <script src="./Script/app.js"></script>
+
+      <script src="./Script/register.js"></script>
+    </div>
+  </body>
 </html>

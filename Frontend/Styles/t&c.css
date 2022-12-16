@@ -63,6 +63,8 @@ body {
 nav {
   width: 95%;
   height: fit-content;
+  /* left: 0px;
+  top: 0px; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -146,12 +148,9 @@ nav {
 
 /* end of nav-bar */
 
-/* ======================================================== */
-
-/* start of page main */
+/* start of main */
 
 #main-content {
-  box-sizing: border-box;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -160,144 +159,85 @@ nav {
   width: 100%;
 }
 
-/* top-page start */
-
-#top-page {
+#ist-page1 {
   width: 90%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 20px;
 }
 
-#blue-color {
-  color: #2d80e5;
+#blue-text {
+  color: blue;
+}
+
+#h1-ist {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
   font-size: 36px;
+  line-height: 54px;
+  color: #091a2e;
 }
 
-#documentation-btn {
-  cursor: pointer;
-  background-color: #2d80e5;
-  border-radius: 5px;
-  border: none;
-  color: #ffffff;
-  padding: 15px 20px;
-  margin-top: 5%;
+#p-ist {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: justify;
+  color: #2b2b2b;
+  margin-bottom: 24px;
 }
 
-#text h1 {
-  padding: 10px 0;
-}
-
-#image {
-  margin-top: 30px;
-}
-
-/* middle page starts */
-
-#middle-page {
-  box-sizing: border-box;
+#docu {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  background-color: #d5e6fa;
+  align-items: center;
+  padding: 13px 24px;
+  width: 261px;
+  height: 55px;
+  background: #2d80e5;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+#second-page-container {
   width: 100%;
-}
-
-#middle-page-content {
-  width: 90%;
-  box-sizing: border-box;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin: 40px 0 40px 0;
-}
-
-.left {
-  width: 50%;
-  margin-right: 20px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-.right {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-#line1 {
-  width: 62%;
-}
-
-#line2 {
-  width: 52%;
-}
-
-#line3 {
-  width: 70%;
-}
-
-.figcap1 {
-  font-size: 15px;
-  font-weight: 550;
-  padding-left: 10px;
-}
-
-.with-checkmark {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
+  justify-content: space-around;
+  margin-bottom: 50px;
 }
-
-#with-checkmark-inner {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.checkmark img,
-figcaption {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.no-checkmark img,
-.no-checkmark figcaption {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-/* lower page starts */
 
 #second-page {
   width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-}
-
-#second-page-text {
-  width: 100%;
+  justify-content: space-around;
 }
 
 #second-page-text h2 {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 24px;
   line-height: 36px;
-  color: #091a2e;
+  text-align: justify;
+  color: #0f2b4c;
+  margin-top: 79px;
 }
 
 #second-page-text p {
@@ -307,78 +247,114 @@ figcaption {
   font-size: 16px;
   line-height: 24px;
   color: #555555;
+  margin-bottom: 32px;
+}
+
+#second-page-text {
+  width: 100%;
 }
 
 .all-platforms {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 16px 24px;
-  gap: 12px;
-  overflow: hidden;
-}
-
-.all-platforms-content {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 16px 24px;
-  gap: 12px;
-  overflow: hidden;
-}
-
-.platform img,
-.platform p {
-  display: inline;
-  vertical-align: middle;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .platform {
-  width: 360px;
-  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+  width: 300px;
+  height: 72px;
+  background: #ffffff;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),
-    0px 2px 6px 2px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  padding: 10px 20px;
+    0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
 }
 
-#sixth-page {
+.platform p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #404040;
+  margin-left: 20px;
+}
+
+#third-page-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #d5e6fa;
+}
+
+#third-page {
   width: 90%;
-  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#third-page h1 {
+  margin-top: 68px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #0f2b4c;
+}
+
+#third-page-frames-container {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-#sixth-page h3 {
+.frames-3rd-page {
+  padding: 24px;
+  margin: 26px 0 76px 0;
+  width: 300px;
+  height: 250px;
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+}
+
+.img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frames-3rd-page p {
+  padding: 10px 0 10px 0;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 28px;
-  line-height: 42px;
-  text-align: justify;
-  color: #091a2e;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0f2b4c;
 }
 
-#sixth-page button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 13px 24px;
-  width: 254px;
-  height: 50px;
-  background: #2d80e5;
-  border-radius: 6px;
-  border: none;
-
+.frames-3rd-page label {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  color: #ffffff;
+  line-height: 21px;
+  text-align: center;
+  color: #555555;
 }
 
 #fourth-page-container {
@@ -388,6 +364,7 @@ figcaption {
   justify-content: center;
   margin-bottom: 50px;
   background: #d5e6fa;
+  padding-bottom: 20px;
 }
 
 #fourth-page {
@@ -396,6 +373,7 @@ figcaption {
   align-items: center;
   justify-content: center;
   background: white;
+  padding-bottom: 20px;
 }
 
 #fourth-page-content {
@@ -404,6 +382,7 @@ figcaption {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 20px;
 }
 
 #fourth-page-content h2 {
@@ -440,6 +419,7 @@ figcaption {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  /* justify-content: space-between; */
 }
 
 #round-1 {
@@ -491,10 +471,49 @@ figcaption {
   height: 35px;
   background: #2d80e5;
   border-radius: 6px;
+}
+
+#fifth-page-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#fifth-page-content {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#fifth-page-content {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: justify;
+  color: #0f2b4c;
+}
+
+#gen-doc-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 24px;
+  width: 254px;
+  height: 50px;
+  background: #2d80e5;
+  border-radius: 6px;
   border: none;
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
 }
 
 /* footer styling */
@@ -656,62 +675,38 @@ footer a {
 }
 
 @media screen and (max-width: 600px) {
-  #top-page {
+  #ist-page1 {
     width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  #header-img {
+    width: 450px;
+    height: 400px;
+  }
+
+  .all-platforms {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+  }
+
+  .platform {
     margin-bottom: 20px;
-    text-align: center;
   }
 
-  #middle-page-content {
-    width: 90%;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .left {
+  #third-page-frames-container {
     width: 100%;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-
-  .right {
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-
-  #line1 {
-    width: 78%;
-  }
-
-  #line2 {
-    width: 66%;
-  }
-
-  #line3 {
-    width: 90%;
-  }
-
-  #sixth-page {
-    width: 90%;
-    padding: 30px 0;
-    display: flex;
-    flex-direction: column;
-  }
-
-  #sixth-page h3 {
-    text-align: center;
-    margin-bottom: 20px;
+    justify-content: space-between;
   }
 
   #lower-fourth-page {
@@ -723,22 +718,14 @@ footer a {
     justify-content: space-between;
   }
 
-  #lower-left {
+  #fifth-page-content {
     width: 90%;
-    margin-top: 30px;
-  }
-
-  .all-platforms-content {
-    box-sizing: content-box;
     display: flex;
+    text-align: center;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 0 24px;
-    overflow: visible;
+    justify-content: space-between;
   }
-
-  /* constants */
 
   nav {
     width: 95%;
