@@ -10,6 +10,11 @@ function registerUser(event) {
     let password = event.target.password.value;
     let renterPassword = event.target.renterPassword.value;
 
+    if (!fullname || !email || !password || !renterPassword ) {
+        alert('All fields required!');
+        return;
+    }
+
     //sending to the server
     let userObj = {
         fullname,
@@ -19,13 +24,15 @@ function registerUser(event) {
     };
 
 //using fetch API
-fetchAPI(userObj, '/signup', 'POST');
+fetchAPI(userObj, 'auth/signup', 'POST').then((data) => {
+    if (data.status) {
+      alert(data.mes);
+      window.location.href = '../Frontend/login.html';
+    }
+    else {
+      alert(data.mes);
+    }
+  });
 }
 
-
-
-
-// console.log(registerForm)
-
 registerForm.addEventListener('submit', registerUser);
-
