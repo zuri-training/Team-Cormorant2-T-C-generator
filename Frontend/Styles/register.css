@@ -12,14 +12,18 @@ body {
   text-decoration: none;
 }
 
-#logo {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding-top: 20px;
-  width: 100%;
-  height: fit-content;
-}
+  #fullname{
+    box-sizing: border-box;
+    width: 473px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    border-radius: 6px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;;
+  }
 
 #zuri-logo {
   width: 90%;
@@ -266,12 +270,31 @@ form {
     margin-bottom: 20px;
   }
 
-  #form-section {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+  #renterPassword {
+    box-sizing: border-box;
+    width: 473px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    border-radius: 6px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+  }
+
+  #re-enter password-label {
+    width: 133px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #121212;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   #signin {
@@ -283,6 +306,29 @@ form {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 13px 24px;
+    gap: 10px;
+    position: absolute;
+    width: 512px;
+    height: 39px;
+    left: -30px;
+    top: 415px;
+    background: #2D80E5;
+    border-color: #2D80E5;
+    border-radius: 6px;
   }
-}
+  
+  .signup-text {
+    position: absolute;
+    width: 229px;
+    height: 21px;
+    left: 190px;
+    top: 588px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #555555;
+  }
+
