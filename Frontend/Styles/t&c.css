@@ -160,10 +160,360 @@ nav {
 }
 
 #ist-page1 {
-  width: 80%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+#blue-text {
+  color: blue;
+}
+
+#h1-ist {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #091a2e;
+}
+
+#p-ist {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: justify;
+  color: #2b2b2b;
+  margin-bottom: 24px;
+}
+
+#docu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 24px;
+  width: 261px;
+  height: 55px;
+  background: #2d80e5;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+#second-page-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+#second-page {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#second-page-text h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: justify;
+  color: #0f2b4c;
+  margin-top: 79px;
+}
+
+#second-page-text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+  margin-bottom: 32px;
+}
+
+#second-page-text {
+  width: 100%;
+}
+
+.all-platforms {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.platform {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+  width: 300px;
+  height: 72px;
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.platform p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #404040;
+  margin-left: 20px;
+}
+
+#third-page-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #d5e6fa;
+}
+
+#third-page {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#third-page h1 {
+  margin-top: 68px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #0f2b4c;
+}
+
+#third-page-frames-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.frames-3rd-page {
+  padding: 24px;
+  margin: 26px 0 76px 0;
+  width: 300px;
+  height: 250px;
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+}
+
+.img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frames-3rd-page p {
+  padding: 10px 0 10px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0f2b4c;
+}
+
+.frames-3rd-page label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #555555;
+}
+
+#fourth-page-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  background: #d5e6fa;
+  padding-bottom: 20px;
+}
+
+#fourth-page {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding-bottom: 20px;
+}
+
+#fourth-page-content {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+#fourth-page-content h2 {
+  margin: 60px 0 6px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #0f2b4c;
+}
+
+#fourth-page-content p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #555555;
+}
+
+#lower-fourth-page {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#lower-left {
+  width: 50%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+}
+
+#round-1 {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #2d80e5;
+}
+
+#round-2,
+#round-3 {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #2d80e5;
+}
+
+#table {
+  width: 100%;
+}
+
+#table h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #121212;
+}
+
+#table p {
+  padding-bottom: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #555555;
+}
+
+.genPol {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 24px;
+  width: 169px;
+  height: 35px;
+  background: #2d80e5;
+  border-radius: 6px;
+}
+
+#fifth-page-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#fifth-page-content {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#fifth-page-content {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: justify;
+  color: #0f2b4c;
+}
+
+#gen-doc-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 24px;
+  width: 254px;
+  height: 50px;
+  background: #2d80e5;
+  border-radius: 6px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
 }
 
 /* footer styling */
@@ -325,84 +675,61 @@ footer a {
 }
 
 @media screen and (max-width: 600px) {
-  #documentation-section {
+  #ist-page1 {
+    width: 90%;
     display: flex;
-    height: fit-content;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 200px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
   }
 
-  #testimonial-container {
+  #header-img {
+    width: 450px;
+    height: 400px;
+  }
+
+  .all-platforms {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #testimonial-section h2 {
-    margin: 30px 0;
-    text-align: center;
-  }
-
-  .card {
-    margin-bottom: 10px;
-  }
-
-  #services {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .services-inner {
-    margin-bottom: 5%;
-  }
-  .feature {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  #rafiki3 {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  #features-location {
-    width: 90%;
-  }
-
-  #feature-img {
-    height: 100px;
-    width: 100px;
-  }
-
-  #bus-inside {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
   }
 
-  .bus-type-cards {
+  .platform {
     margin-bottom: 20px;
   }
 
-  #header-section {
-    box-sizing: border-box;
-    background: white;
+  #third-page-frames-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #lower-fourth-page {
+    width: 100%;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #fifth-page-content {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
   }
 
   nav {
     width: 95%;
     height: fit-content;
-    /* left: 0px;
-      top: 0px; */
     display: flex;
     flex-direction: column;
     align-items: center;
