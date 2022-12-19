@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/progress.css">
+    <title>Progress</title>
+</head>
+<body>
+    <header>
+        <a href="./dashboard.html"><img src="/Frontend/images/zuri logo 1.svg" alt="Logo" class="img1"></a> 
+    </header>
+
+ <!-- Progress Naviation Section -->
+    <nav class="sidenav">
+        <div class="dashboard-nav">
+            <div class="progressdiv">
+                <label for="file">
+                    Progress
+                </label>
+                <div class="progress-newDiv">
+                    <progress id="file" value="25" max="100"> 25% </progress>
+                    <p class="progress-p"> 25%</p>
+                </div>
+            </div> 
+
+                <div class="progress">
+                    <ul>
+                        <li><a href="#" class="active"> Terms and Conditions Uses</a></li>
+                        <li><a href="#" class="active" >User Information</a></li>
+                        <li><a href="#"> User Rights</a></li>
+                        <li><a href="#">Final Deatils</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+ <!-- Main Dashboard Section -->
+    <section>
+        <div class="dashboard-div">
+            <div id="tcpage-3" class="dashdiv1">
+                <p class="dash-p"> Terms and Conditions <p>
+                <div class="save">
+                    <p class="savep"> Save </p>
+                    <p class="publish"> Publish </p>
+                </div>
+            </div>
+            <div class="divider md"></div>
+            
+            <div class="dashdiv2" id="page3">
+                <div class="dashdiv-div">
+                  <p> Personal Information Collected Directly </p>
+                  <label>Please select the personal information you intend to collect directly from the user:</label>
+                  <label for="names">
+                  <input id="names" type="checkbox" value="names" class="label"> Names
+                  </label>
+                  <label for="phone number">
+                     <input id="phone number" type="checkbox" value="phone number" class="label"> Phone numbers
+                  </label>
+                  <label for="email">
+                     <input id="email" type="checkbox" value="email" class="label"> Email addresses
+                  </label>
+                  <label for="mailing">
+                     <input id="mailing" type="checkbox" value="mailing" class="label"> Mailing addresses
+                  </label>
+                  <label for="job">
+                     <input id="job" type="checkbox" value="job" class="label"> Job titles
+                  </label>
+                  <label for="username">
+                     <input id="username" type="checkbox" value="username" class="label"> Usernames
+                  </label>
+                  <label for="password">
+                     <input id="password" type="checkbox" value="password" class="label"> Password
+                  </label>
+                  <label for="contact-data">
+                     <input id="contact-data" type="checkbox" value="contact-data" class="label"> Contact or authentication data
+                  </label>
+                  <label for="billing-address">
+                     <input id="billing-address" type="checkbox" value="billing-address" class="label"> Billing addresses
+                  </label>
+                  <label for="debit-number">
+                     <input id="debit-number" type="checkbox" value="debit-number" class="label"> Debit/credit card numbers
+                  </label>
+                </div>
+                <div class="dashdiv-anotherdiv">
+                    <img src="/Frontend/images/div 1.png" alt="preview">
+                    <button> Preview </button>
+                </div>
+            </div>
+        </div>
+
+            <div class="dashdiv-anotherdiv-div" id="forPage3">
+
+                <a href="./tcprogress2.html" id="prev"><p class="btn1"> Back </p> </a>
+                <a href="./tcprogress4.html" id="next" class="btn2"><p> Next </p> </a>
+        
+            </div>
+        </div>
+    </section>
+</body>
+</html>

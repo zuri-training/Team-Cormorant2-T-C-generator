@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/progress.css">
+    <title>Progress</title>
+</head>
+<body>
+    <header>
+        <a href="./dashboard.html"><img src="/Frontend/images/zuri logo 1.svg" alt="Logo" class="img1"></a> 
+    </header>
+
+ <!-- Progress Naviation Section -->
+    <nav class="sidenav">
+        <div class="dashboard-nav">
+            <div class="progressdiv">
+                <label for="file">
+                    Progress
+                </label>
+                <div class="progress-newDiv">
+                    <progress id="file" value="100" max="100"> 100% </progress>
+                    <p class="progress-p"> 100%</p>
+                </div>
+            </div> 
+
+                <div class="progress">
+                    <ul>
+                        <li><a href="#" class="active"> Privacy Policy Uses</a></li>
+                        <li><a href="#" class="active">User Information</a></li>
+                        <li><a href="#" class="active">User Rights</a></li>
+                        <li><a href="#"  class="active">Final Deatils</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+ <!-- Main Dashboard Section -->
+    <section>
+        <div class="dashboard-div">
+            <div id="page-6" class="dashdiv1">
+                <p class="dash-p"> Privacy Policy <p>
+                <div class="save">
+                    <p class="savep"> Save </p>
+                    <p class="publish"> Publish </p>
+                </div>
+            </div>
+            <div class="divider md"></div>
+            
+            <div id="page6" class="dashdiv2">
+                <div class="dashdiv-div">
+                  <p> Company Address </p>
+                  <label for="country">Country 
+                      <input id="country" name="country" type="text" placeholder="Enter Country" required />
+                  </label>
+                  <label for="address line">Address line 
+                    <input id="address line" name="address line" type="text" placeholder="Enter Address line" required />
+                </label>
+                <label for="city"> City / town
+                    <input id="city" name="city" type="text" placeholder="Enter City / town" required />
+                </label>
+                <label for="zip-code">  Zip code / postal code
+                    <input id="zip-code" name="zip-code" type="number" placeholder="Enter Zip code / postal code" required />
+                </label>
+                </div>
+                <div class="dashdiv-anotherdiv">
+                    <img src="/Frontend/images/div 1.png" alt="preview">
+                    <button> Preview </button>
+                </div>
+            </div>
+        </div>
+
+            <div class="dashdiv-anotherdiv-div" id="forPage6">
+                <a href="./progresspp5.html" id="prev"><p class="btn1"> Back </p> </a>
+                <a href="./policy.html" id="next" class="btn2">
+                    <p> Publish </p>
+                    <!-- <object data="publish.html" type="file.html"></object> -->
+                </a>  
+            </div>
+        </div>
+    </section>
+</body>
+</html>

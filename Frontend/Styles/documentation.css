@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: 'Poppins', sans-serif; 
+    width: 100%;
+}
+
+#main-h3 {
+    margin-top: 40px;
+    font-size: 38px;
+}
+
+span {
+    color: #2d80e5;
+}
+
+.all {
+    display: flex;
+    gap: 190px;
+    margin-left: 90px;
+}
+
+.who h3 {
+    margin-top: 120px;
+    font-size: 28px;
+    margin-left: -150px;
+}
+
+.who p {
+    text-align: justify;
+    margin-left: 90px;
+    line-height: 20px;
+    padding-top: 20px;
+}
+
+.all img {
+    margin: 30px;
+}
+
+.prob {
+    display: flex;
+    gap: 80px;
+    margin-left: 90px;
+}
+
+.problem h3 {
+    margin-top: 120px;
+    font-size: 28px;
+    margin-left: -10px;
+}
+
+.problem p {
+    text-align: justify;
+    line-height: 20px;
+    margin-left: 190px;
+    padding-top: 20px;
+}
+
+.prob img {
+    margin: 30px 0px 30px 80px;
+    width: 25%;
+}
+
+.solution {
+    display: flex;
+    gap: 190px;
+    margin-left: 90px;
+    margin-top: -20px;
+}
+
+.solu h3 {
+    margin-top: 120px;
+    font-size: 28px;
+    margin-left: -280px;
+}
+
+.solu p {
+    text-align: justify;
+    line-height: 20px;
+    margin-left: 90px;
+    padding-top: 20px;
+}
+
+.solution img {
+    margin-top: 120px;
+    width: 28%;
+}
+
+.new-section h3 {
+    margin-top: 120px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.how1 {
+    display: flex;
+    gap: 200px;
+    margin: 100px;
+}
+
+.how1 p {
+    margin-left:100px;
+    line-height: 20px;
+}
+
+.how1 img {
+    width: 30%;
+    margin-top: -70px;
+    margin-left: 250px;
+}
+
+.how6 {
+    display: flex;
+    gap: 180px;
+    margin: 100px;
+}
+
+.how6 p {
+    margin-left:100px;
+}
+
+.how6 img {
+    width: 30%;
+    margin-top: -70px;
+    margin-left: 150px;
+}
+
+.how4 {
+    display: flex;
+    gap: 180px;
+    margin: 100px;
+}
+
+.how4 p {
+    margin-left:100px;
+}
+
+.how4 img {
+    width: 30%;
+    margin-top: -70px;
+    margin-left: 250px;
+}
+
+.how5 {
+    display: flex;
+    gap: 180px;
+    margin: 100px;
+}
+
+.how5 p {
+    margin-left:100px;
+}
+
+.how5 img {
+    width: 30%;
+    margin-top: -70px;
+    margin-left: 70px;
+}
+
+.last-sec {
+    display: flex;
+    margin-left: 200px;
+    gap: 210px;
+}
+
+.updated h3 {
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.feat {
+    margin-bottom: 40px;
+}
+
+.feat h3 {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: circle;
+}
+

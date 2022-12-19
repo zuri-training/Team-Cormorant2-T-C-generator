@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/progress.css">
+    <title>Progress</title>
+</head>
+<body>
+    <header>
+        <a href="./dashboard.html"><img src="/Frontend/images/zuri logo 1.svg" alt="Logo" class="img1"></a> 
+    </header>
+
+ <!-- Progress Naviation Section -->
+    <nav class="sidenav">
+        <div class="dashboard-nav">
+            <div class="progressdiv">
+                <label for="file">
+                    Progress
+                </label>
+                <div class="progress-newDiv">
+                    <progress id="file" value="25" max="100"> 25% </progress>
+                    <p class="progress-p"> 25%</p>
+                </div>
+            </div> 
+
+                <div class="progress">
+                    <ul>
+                        <li><a href="#" class="active"> Terms and Condition Uses</a></li>
+                        <li><a href="#" class="active">User Information</a></li>
+                        <li><a href="#">User Rights</a></li>
+                        <li><a href="#">Final Deatils</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+ <!-- Main Dashboard Section -->
+    <section>
+        <div class="dashboard-div">
+            <div id="tcpage-2" class="dashdiv1">
+                <p class="dash-p"> Terms and Conditions <p>
+                <div class="save">
+                    <p class="savep"> Save </p>
+                    <p class="publish"> Publish </p>
+                </div>
+            </div>
+            <div class="divider md"></div>
+            
+            <div class="dashdiv2" id="page2">
+                <div class="dashdiv-div">
+                  <p> User Accounts </p>
+                  <label> Can users create an account or register with your website or app?</label>
+                  <label for="yes">
+                  <input id="yes" type="checkbox" value="yes" class="label"> Yes
+                  </label>
+                  <label for="no">
+                     <input id="no" type="checkbox" value="no" class="label"> No
+                  </label>
+
+                  <label> Is your website or app offered to users under the age of 18?</label>
+                  <label for="yes">
+                  <input id="yes" type="checkbox" value="yes" class="label"> Yes
+                  </label>
+                  <label for="no">
+                     <input id="no" type="checkbox" value="no" class="label"> No
+                  </label>
+                </div>
+                <div class="dashdiv-anotherdiv">
+                    <img src="/Frontend/images/div 1.png" alt="preview">
+                    <button> Preview </button>
+                </div>
+            </div>
+        </div>
+
+            <div class="dashdiv-anotherdiv-div" id="forPage2">
+
+                <a href="./tcprogress1.html" id="prev"><p class="btn1"> Back </p> </a>
+                <a href="./tcprogress3.html" id="next" class="btn2"><p> Next </p> </a>
+        
+            </div>
+        </div>
+    </section>
+</body>
+</html>

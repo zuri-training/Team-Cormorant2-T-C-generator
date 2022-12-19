@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px; */
+    background: #eef1f4;
+    /* top: 0;
+    left: 0; */
+}
+
+header img {
+    margin: 2px 30px -18px;
+}
+
+.sidenav {
+    height: 74%;
+    width: 20%;
+    position: absolute;
+    z-index: 1;
+    top: 10;
+    left: 0;
+    background: #d5e6fa;
+    overflow: hidden;
+    padding-top: 120px;
+}
+
+/* Styling the progress bar */
+.progressdiv {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.progressdiv label {
+    margin: -80px 50px 10px;
+}
+
+.progressdiv .progress-newDiv {
+    display: flex;
+}
+
+.progressdiv progress {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: -10px 50px 10px;
+    width: 300px;
+    height: 25px;
+}
+
+.progressdiv progress::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 4px;
+    box-shadow: 0 2px px rgba(238, 241, 244, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+    background: #5c6ca6;
+}
+
+.progressdiv p {
+    margin: -10px 10px -10px -40px;
+}
+
+/* 2nd Progress Bar Styles */
+.progress {
+    position: absolute;
+    top: 140px;
+    transform: translate(-50%);
+}
+
+.progress ul {
+    list-style: none;
+    left: 120px;
+    padding-left: 50px;
+    position: relative;
+}
+
+.progress ul::after {
+    content: "";
+    position: absolute;
+    width: .09px;
+    height: calc(100% - 50px);
+    /* height: 100%; */
+    left: 40px;
+    top: 10px;
+    background: #174073;
+    z-index: 1;
+    margin-top: 15px;
+}
+
+.progress ul li {
+    padding: 18px 0;
+    padding-left: 10px;
+}
+
+.progress ul li a {
+    text-decoration: none;
+    position: relative;
+    color: #aaaaaa;
+    font-size: 15px;
+    line-height: 1rem;
+}
+
+.progress ul li a::before {
+    content: "";
+    position: absolute;
+    background: #d5e6fa;
+    width: 15px;
+    height: 15px;
+    left: -30px;
+    top: 11%;
+    transform: translate(5%);
+    border-radius: 50px;
+    border: 2px solid #aaaaaa;
+    transform: background 250ms;
+    z-index: 10;
+}
+
+.progress ul li a.active {
+    color: #121212;
+}
+
+.progress ul li a.active::before {
+    background: #d5e6fa;
+    border: 2px solid #2d80e5;
+}
+
+/* Styling the dashboard */
+section .dashboard-div {
+    position: absolute;
+    left: 350px;
+}
+
+section .dashboard-div .dash-p {
+    font-size: 26px;
+    color: #1e5599;
+    margin: 25px 0 20px;
+}
+
+.divider {
+    border-bottom: 1px solid #959595;
+    margin: 2px 0;
+    clear: right;
+    width: 1200px;
+}
+
+.sidenav .dashboard-nav .div4 p {
+    margin: 10px 9px ;
+}
+
+section .dashboard-div {
+    position: absolute;
+    left: 350px;
+}
+
+section .dashboard-div .dash-p {
+    font-size: 26px;
+    color: #1e5599;
+    margin: 25px 0 20px;
+}
+
+section .dashboard-div #page-1 {
+    display: flex;
+    gap: 365px;
+}
+
+/* section .dashboard-div .dashdiv1 {
+    display: flex;
+    gap: 400px;
+} */
+
+section .dashboard-div .dashdiv1 .save {
+    display: flex;
+    font-size: 16px;
+    gap: 15px;
+}
+
+section .dashboard-div .dashdiv1 .savep {
+    margin: 28px 0;
+}
+
+section .dashboard-div .dashdiv1 .save .publish {
+    background: #158eff;
+    /* background: #5095e9; */
+    color: #fff;
+    border-radius: 8px;
+    margin: 18px 10px;
+    padding: 10px 20px;
+}
+
+section .dashboard-div .dashdiv2 {
+    display: flex;
+    gap: 500px;
+}
+
+section .dashboard-div .dashdiv2 .dashdiv-div p {
+    color:#1e5599;
+    margin: 15px 0 20px;
+}
+
+section .dashboard-div .dashdiv2 .dashdiv-div label {
+    display: block;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+section .dashboard-div .dashdiv2 .dashdiv-div label input {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+}
+
+section .dashboard-div .dashdiv2 .dashdiv-div label .label {
+    /* width: unset; */
+    vertical-align: middle;
+    margin: 0em 0.5em 0.3em 0;
+}
+
+section .dashboard-div .dashdiv2 .dashdiv-anotherdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+section .dashboard-div .dashdiv2 .dashdiv-anotherdiv img {
+    margin: 50px 0px 0 0px;
+
+}
+
+section .dashboard-div .dashdiv2 .dashdiv-anotherdiv button {
+    border: 2px solid #2d80e5;
+    background: #fff;
+    color: #2d80e5;
+    font-size: 16px;
+    border-radius: 6px;
+    /* margin-right:0px; */
+    padding: 8px 0px ;
+}
+
+/* section .dashboard-div .dashdiv2 .page2 .dashdiv-div p {
+    color:#1e5599;
+    margin: 15px 0 20px;
+} */
+
+section .dashdiv-anotherdiv-div {
+    margin-left: 352px;
+    display: flex;
+    position: absolute;
+    top: 480px;
+    left: 0px;
+    gap: 620px;
+}
+
+section .dashdiv-anotherdiv-div a .btn1 {
+    color: #2d80e5;
+}
+
+section .dashdiv-anotherdiv-div .btn2 {
+    color: #fff;
+    background: #2d80e5;
+    border-radius: 3px;
+    padding: 8px 40px;
+}
+
+/* Extra Styling for Page 2 */
+section .dashboard-div #page-2 {
+    display: flex;
+    gap: 363px;
+}
+
+section .dashboard-div #page2 {
+    display: flex;
+    gap: 355px;
+}
+
+section #forPage2 {
+    display: flex;
+    position: absolute;
+    top: 560px;
+}
+
+/* Extra Styling for Page 3 */
+section .dashboard-div #page-3 {
+    display: flex;
+    gap: 360px;
+}
+
+section .dashboard-div #page3 {
+    display: flex;
+    gap: 240px;
+}
+
+section #forPage3 {
+    display: flex;
+    position: absolute;
+    top: 720px;
+}
+
+/* Extra Styling for Page 4 */
+section .dashboard-div #page-4 {
+    display: flex;
+    gap: 360px;
+}
+
+section .dashboard-div #page4 {
+    display: flex;
+    gap: 370px;
+}
+
+section #forPage4 {
+    display: flex;
+    position: absolute;
+    top: 490px;
+}
+
+/* Extra Styling for Page 5 */
+section .dashboard-div #page-5 {
+    display: flex;
+    gap: 360px;
+}
+
+section .dashboard-div #page5 {
+    display: flex;
+    gap: 245px;
+}
+
+section #page5 label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+section #page5 label input {
+    margin: 10px 0 0 0;
+    width: 70%;
+    min-height: 2em;
+}
+
+section #page5 label input {
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+}
+
+section #page5 label[for="email"] {
+    display: flex;
+    flex-direction: column;
+}
+
+section #page5 label[for="tel"] {
+    display: flex;
+    flex-direction: column;
+}
+
+section #page5 input::placeholder{
+    color: #d5d5d5;
+    padding-left: 5px;
+}
+
+section .dashboard-div #company-name {
+    margin: 15px 0 20px;
+}
+
+section .dashboard-div #page5 label {
+    margin-top: 10px;
+}
+
+section .dashboard-div #yes {
+    margin: 12px 8px;
+    width: 20px;
+    height: 20px;
+    font-size: 13.5px;
+}
+
+section .dashboard-div #no {
+    margin: 12px 8px;
+    width: 20px;
+    height: 20px;
+    font-size: 13.5px;
+}
+
+section .dashboard-div .dashdiv2 .dashdiv-div label .label {
+    /* width: unset; */
+    vertical-align: middle;
+    margin: 0em 0.5em 0.3em 0;
+}
+
+section #forPage5 {
+    display: flex;
+    position: absolute;
+    top: 650px;
+}
+
+/* Extra Styling for Page  */
+section .dashboard-div #page-6 {
+    display: flex;
+    gap: 360px;
+}
+
+section .dashboard-div #page6 {
+    display: flex;
+    gap: 595px;
+}
+
+section #page6 label {
+    display: flex;
+    flex-direction: column;
+    margin: 18px 0;
+}
+
+section #page6 label input {
+    margin: 12px 0 0 0;
+    width: 220%;
+    min-height: 2em;
+}
+
+section #page6 label input {
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+}
+
+section #page6 input::placeholder{
+    color: #d5d5d5;
+    padding-left: 7px;
+}
+
+section .dashboard-div #company-name {
+    margin: 15px 0 20px;
+}
+
+section .dashboard-div #page6 label {
+    margin-top: 13px;
+}
+
+section .dashboard-div .dashdiv2 .dashdiv-div label .label {
+    /* width: unset; */
+    vertical-align: middle;
+    margin: 0em 0.5em 0.3em 0;
+}
+
+section #forPage6 {
+    display: flex;
+    position: absolute;
+    top: 560px;
+    left: 20px;
+}
+
+/* Extra Styling for TC Dashboard  Page1*/
+section .dashboard-div #tcpage-1 {
+    display: flex;
+    gap: 305px;
+}
+
+section .dashboard-div #tcpage1 {
+    display: flex;
+    gap: 465px;
+}
+
+section #tc {
+    margin-left: 352px;
+    display: flex;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    gap: 620px;
+}
+
+/* Extra Styling for TC Dashboard Page2 */
+section .dashboard-div #tcpage-2 {
+    display: flex;
+    gap: 320px;
+}
+
+/* Extra Styling for TC Dashboard Page3 */
+section .dashboard-div #tcpage-3 {
+    display: flex;
+    gap: 300px;
+}
+
+/* Extra Styling for TC Dashboard Page4 */
+section .dashboard-div #tcpage-4 {
+    display: flex;
+    gap: 300px;
+}
+
+/* Extra Styling for TC Dashboard Page5 */
+section .dashboard-div #tcpage-5 {
+    display: flex;
+    gap: 305px;
+}
+
+/* Extra Styling for TC Dashboard Page6 */
+section .dashboard-div #tcpage-6 {
+    display: flex;
+    gap: 305px;
+}
+
+
+
+
+
+
