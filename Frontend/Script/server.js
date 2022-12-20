@@ -18,3 +18,4 @@ async function fetchAPI(data, endpoint, method) {
         console.log(error);
     }
 }
+

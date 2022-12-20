@@ -31,6 +31,7 @@ body {
   justify-content: space-around;
   margin-top: 20px;
   margin-bottom: 50px;
+  height: 600px;
 }
 
 #signin {
@@ -41,6 +42,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 490px;
+  /* height: auto; */
   /* background: #ffffff;
   box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15),
     0px 1px 3px rgba(0, 0, 0, 0.3);
@@ -167,9 +169,9 @@ form {
   flex-grow: 1;
 }
 
-#re-enter-password-label {
-  width: 133px;
-  height: 21px;
+.re-enter-password-label {
+  width: 100%;
+  height: 71px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -182,7 +184,7 @@ form {
   margin-top: 0px;
 }
 
-#re-enter-password {
+#renterPassword {
   box-sizing: border-box;
   width: 100%;
   height: 49px;
@@ -208,6 +210,7 @@ form {
 
 #sign-in {
   margin-top: 50px;
+  /* height: 50px; */
 }
 
 .signin-btn {
@@ -215,13 +218,15 @@ form {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 13px 24px;
+  padding: 8px 24px;
   /* gap: 10px; */
   width: 100%;
   height: 39px;
   background: #2d80e5;
   border-color: #2d80e5;
   border-radius: 6px;
+  /* margin-left: 265px; */
+  /* margin-bottom: 100px; */
 }
 
 .signup-text {
@@ -247,6 +252,7 @@ form {
   background: #2d80e5;
   border-radius: 6px;
   color: #fff;
+  width: 100%;
 }
 
 #signin h2 {
@@ -263,8 +269,10 @@ form {
   position: absolute;
   width: 229px;
   height: 21px;
-  left: 190px;
-  top: 588px;
+  left: 370px;
+  top: 680px;
+  /* left: 190px;
+  top: 588px; */
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -290,7 +298,7 @@ form {
     flex-grow: 1;
   }
 
-  #re-enter password-label {
+  #renterPassword {
     width: 133px;
     height: 21px;
     font-family: 'Poppins';

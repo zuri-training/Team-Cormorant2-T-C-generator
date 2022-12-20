@@ -18,7 +18,7 @@
   <body>
     <div id="logo">
       <div id="zuri-logo">
-        <a href="index.html"
+        <a href="../index.html"
           ><img src="/Frontend/images/logo.png" alt="display of site logo"
         /></a>
       </div>
@@ -27,48 +27,51 @@
     <div class="main">
       <section id="form-section">
         <div id="signin">
-          
+          <h2>Create An Account</h2>
           <form action="" id="register">
-            <h2>Create An Account</h2>
-
-            <label for="fullname" id="name-label">Your Name</label>
-            <input
-              type="text"
-              name="fullname"
-              id="fullname"
-              placeholder="First and Last Name"/>
+        
+            <label for="yourname" id="name-label">Your Name</label>
+            <input 
+            type="text" 
+            name="fullname" 
+            id="fullname" 
+            class="form-input name" 
+            placeholder="First and Last Name" />
 
             <label for="email" id="email-label">Email</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"/>
+            <input 
+            type="email" 
+            name="email" 
+            id="email" 
+            class="form-input email" 
+            placeholder="Email" />
 
             <label for="password" id="password-label">Password</label>
-            <input
-              type="password"
-              name="password"
-              id="password"
-              min="8"
-              max="30"
-              pattern="[a-zA-Z0-9]{8,}"
-              placeholder="At least 8 character (uppercase, lowercase and numbers only)"/>
+            <input 
+            type="password" 
+            name="password" 
+            id="password" 
+            class="form-input password" 
+            min="8" 
+            max="30" 
+            pattern="[a-zA-Z0-9]{8,}" 
+            placeholder= "At least 8 character (uppercase, lowercase and numbers only)" />
 
-            <label for="password" id="re-enter-password-label">Re-enter Password</label>
-            <input
-              type="password"
-              name="renterPassword"
-              id="re-enter-password"
-              min="8"
-              max="30"
-              pattern="[a-zA-Z0-9]{8,}"
-              placeholder="Re-enter Password"
-            />
-            <div id="sign-in">
-              <a class="signin-btn" href="#">Sign In</button></a>
-            </div>
-           
+            <label for="password" id="password-label" class="re-enter-password-label">Re-enter Password</label>
+            <input 
+            type="password" 
+            name="renterPassword" 
+            id="renterPassword" 
+            class="form-input password" 
+            min="8" max="30" 
+            pattern="[a-zA-Z0-9]{8,}"
+            placeholder="Re-enter Password" />
+
+            <div class="signin-btn__container">
+            <!-- <button class="signin-btn" type="submit">Sign In</button> -->
+             <!-- <a href="./login.html"> <button class="signin-btn" type="submit">Sign In</button></a> -->
+             <a href="./login.html"> <button class="signin-btn" type="submit">Sign In</button></a>
+           </div>
           </form>
 
 

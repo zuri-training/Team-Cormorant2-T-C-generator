@@ -1,12 +1,15 @@
 // to check if the register.html is well connected to the JS console.log('register');
 
 const signinForm = document.getElementById('signin');
+console.log(signinForm);
 
 function signinUser(event) {
     event.preventDefault();
-    console.log(event.target.fullname.value);
+    console.log(event.target.email.value);
     let email = event.target.email.value;
     let password = event.target.password.value;
+
+    console.log(email, password);
 
     if (!email || !password ) {
         alert('All fields required!');
@@ -21,15 +24,12 @@ function signinUser(event) {
 
 //using fetch API
 fetchAPI(userObj, 'auth/signin', 'POST').then((data) => {
-    console.log(data);
     if (data.status) {
-      localStorage.setItem('token', data.token);
-      localStorage.setItem('userData', data.user);
-      alert(data.mes);
-      window.location.href = '../Frontend/dashboard.html';
+      alert(data.msg);
+      window.location.href = 'google.com';
     }
     else {
-      alert(data.mes);
+      alert(data.msg);
     }
   });
 }
