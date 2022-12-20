@@ -1,7 +1,7 @@
 # Team-Cormorant2-T_C_Gen
 <h4> A platform that allows users to generate t&amp;c and privacy policy designed by Team Cormorant2. </h4>
 
-<h4> View hosting link <a href="https://zuri-tc-gen.vercel.app/"> here </a> <h4>
+<h4> View hosting link <a href="[https://team-cormorant2-tcgen.netlify.app/"> here </a> <h4>
 
 <h2> Tools and Technologies</h2>
   <h3> General Tools </h3>
