@@ -32,12 +32,11 @@ function registerUser(event) {
 fetchAPI(userObj, 'auth/signup', 'POST').then((data) => {
 // fetch('https://dark-plum-scallop-belt.cyclic.app/api/auth/signup', 'POST').then((data) => {
     if (data.status) {
-      alert(data.msg);
-      // window.location.href = '../Frontend/login.html';
-      window.location.href = 'https://www.google.com.ng/';
+      alert(data.msg); 
     }
     else {
       alert(data.msg);
+      window.location.href = '../Frontend/login.html';
     }
   });
 }

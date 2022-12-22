@@ -1,7 +1,10 @@
 // const { response } = require("express");
 
-const fullname = document.querySelector('#username');
+// const signinForm = document.getElementById('test');
+// console.log(signinForm);
 
+const fullname = document.querySelector('#username');
+const token = localStorage.getItem('token');
 // if (token) {
     
 // }
@@ -11,7 +14,7 @@ fetch('https://dark-plum-scallop-belt.cyclic.app/api/auth/profile', {
     withCredentials: true,
     headers: {
         authorisation: `Bearer ${token}`,
-    }
+    },
 })
 
 .then(response => {

@@ -27,13 +27,13 @@ function signinUser(event) {
   // fetch('https://dark-plum-scallop-belt.cyclic.app/api/auth/signin', 'POST').then((data) => {
     fetchAPI(userObj, 'auth/signin', 'POST').then((data) => {
     if (data.status) {
+      alert(data.msg);
+    }
+    else {
       localStorage.setItem('token',data.token);
       localStorage.setItem('userData',data.user);
       alert(data.msg);
       window.location.href = '../Frontend/dashboard.html';
-    }
-    else {
-      alert(data.msg);
     }
   });
 }
