@@ -2,7 +2,7 @@
 //  console.log('register');
 
 const registerForm = document.getElementById('register');
-console.log(registerForm);
+// console.log(registerForm);
 
 function registerUser(event) {
     event.preventDefault();
@@ -13,7 +13,7 @@ function registerUser(event) {
     let password = event.target.password.value;
     let renterPassword = event.target.renterPassword.value;
 
-    console.log(fullname, email, password, renterPassword);
+    // console.log(fullname, email, password, renterPassword);
 
     if (!fullname || !email || !password || !renterPassword ) {
         alert('All fields required!');
@@ -30,19 +30,11 @@ function registerUser(event) {
 
 //using fetch API
 fetchAPI(userObj, 'auth/signup', 'POST').then((data) => {
+// fetch('https://dark-plum-scallop-belt.cyclic.app/api/auth/signup', 'POST').then((data) => {
     if (data.status) {
       alert(data.msg);
-      // window.location.href = "https://www.google.com.ng";
-      location.assign("https://www.google.com.ng");
-      // window.location.href = "../Frontend/login.html";
-      // window.location.href = "./Frontend/login.html";
-      // window.location.href = "/Frontend/login.html";
-      // window.location.href = "Frontend/login.html";
-      // window.location.href = "./login.html";
-      // window.location.href = "../login.html";
-      // window.location.href = "../login.html";
-      // window.location.href = "./login.html";
-      // window.location.href = "..\Frontend\login.html";
+      // window.location.href = '../Frontend/login.html';
+      window.location.href = 'https://www.google.com.ng/';
     }
     else {
       alert(data.msg);

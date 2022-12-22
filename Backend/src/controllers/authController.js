@@ -28,7 +28,7 @@ const signUp = async (req,res) => {
 const signIn = async (req,res) => {
     const {email, password} = req.body;
     if (!email || !password){
-        res.status(400).json({msg:"Email and password required"})
+       return res.status(400).json({msg:"Email and password required"})
     } 
     const user = await User.findOne({email})
     if(!user){
@@ -37,7 +37,7 @@ const signIn = async (req,res) => {
     if(user) {
         return res.status(200).json({msg:"Welcome Back!"})
     }
-    const isPasswordMatch = await user.checkPassword(password)
+    const isPasswordMatch = await user.renterPassword(password)
     if (isPasswordMatch){
         const token = jwt.sign({userId:user._id, username:user.fullname}, process.env.JWT_SECRET,{ expiresIn: '10d'})
        return res.status(200).json({exist:true, fullname:user.fullname, token})
