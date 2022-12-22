@@ -28,7 +28,6 @@ function signinUser(event) {
     fetchAPI(userObj, 'auth/signin', 'POST').then((data) => {
     if (data.status) {
       alert(data.msg);
-      
     }
     else {
       localStorage.setItem('token',data.token);
