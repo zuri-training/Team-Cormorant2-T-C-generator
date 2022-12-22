@@ -37,12 +37,14 @@
 </ul>
   
   ### Links and Resources
-- API Hosting: https://dark-plum-scallop-belt.cyclic.app/
-- API Documentation: https://documenter.getpostman.com/view/21874237/2s8Z6sbGEN
-- Project Documentation: https://docs.google.com/document/d/1GEQCER2tZ14-_mvy1rUYUGUZ9uKs1ZS6/edit
-- Product Design: https://www.figma.com/file/1o6PCmnSPjihRI1fnqoOi2/style-guide-lowfi-%26-hifi-(Copy)?t=Gd4PnvirlHxtY8Vd-6
-- Live Site: https://team-cormorant2-tcgen.netlify.app/
-
+<ul>
+  <li><a href="https://dark-plum-scallop-belt.cyclic.app/"> API Hosting </a></li>
+  <li><a href="https://documenter.getpostman.com/view/21874237/2s8Z6sbGEN"> API Documentation </a></li>
+  <li><a href="https://docs.google.com/document/d/1GEQCER2tZ14-_mvy1rUYUGUZ9uKs1ZS6/edit"> Project Documentation </a></li>
+  <li><a href="https://www.figma.com/file/1o6PCmnSPjihRI1fnqoOi2/style-guide-lowfi-%26-hifi-(Copy)?t=Gd4PnvirlHxtY8Vd-6"> Product Design </a></li>
+  <li><a href="https://team-cormorant2-tcgen.netlify.app/"> Live Site </a></li>
+</ul>
+  
 <h2> Features</h2>
   <h3>Unaunthenticated User can:</h3>
   <ul>
@@ -59,19 +61,21 @@
   <li> can export, download, share and embed on another website </li>
   <li> can save data and download later </li
   </ul>
+    
+ ### Meet The Team
+<ul>
+  <li><a href=""> Oshifade Olawale </a></li>
+  <li><a href=""> Joshua Oluwatimilehin </a></li>
+  <li><a href=""> Oluwadamilola Falodun </a></li>
+  <li><a href=""> Gbenro Ogunyomi </a></li>
+  <li><a href=""> Johnson Adeyemi </a></li>
+  <li><a href=""> Jubril Akanni </a></li>
+  <li><a href=""> Juliet Ebili </a></li>
+  <li><a href=""> Olawumi Ladele </a></li>
+  <li><a href=""> Semiat Boladale </a></li>
+  <li><a href=""> Solomon Shonowo </a></li>
+  <li><a href=""> Gideon Ozegbe </a></li>
+  <li><a href=""> Sinzi Colombe </a></li>
+  <li><a href=""> Whevoesa Meshack </a></li>
+</ul>
 
-<h3> Meet The Team </3> <br>
-
-<a href=""><p>Oshifade Olawale</p></a>
-<a href=""><p>Joshua Oluwatimilehin</p></a>
-<a href=""><p>Oluwadamilola Falodun</p></a>
-<a href=""><p>Gbenro Ogunyomi</p></a>
-<a href=""><p>Johnson Adeyemi</p></a>
-<a href=""><p>Jubril Akanni</p></a>
-<a href=""><p>Juliet Ebili</p></a>
-<a href=""><p>Olawumi Ladele</p></a>
-<a href=""><p>Semiat Boladale</p></a>
-<a href=""><p>Solomon Shonowo</p></a>
-<a href=""><p>Gideon Ozegbe</p></a>
-<a href=""><p>Sinzi Colombe</p></a>
-<a href=""><p>Whevoesa Meshack</p></a>
