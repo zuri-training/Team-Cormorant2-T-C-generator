@@ -1,7 +1,7 @@
 # Team-Cormorant2-T_C_Gen
 <h4> A platform that allows users to generate t&amp;c and privacy policy designed by Team Cormorant2. </h4>
 
-<h4> View hosting link <a href="https://zuri-tc-gen.vercel.app/"> here </a> <h4>
+<h4> View hosting link <a href="https://team-cormorant2-tcgen.netlify.app/"> here </a> <h4>
 
 <h2> Tools and Technologies</h2>
   <h3> General Tools </h3>
@@ -35,6 +35,13 @@
 <li> Figma </li>
 <li> Data Schema </li>
 </ul>
+  
+  ### Links and Resources
+- API Hosting: https://dark-plum-scallop-belt.cyclic.app/
+- API Documentation: https://documenter.getpostman.com/view/21874237/2s8Z6sbGEN
+- Project Documentation: https://docs.google.com/document/d/1GEQCER2tZ14-_mvy1rUYUGUZ9uKs1ZS6/edit
+- Product Design: https://www.figma.com/file/1o6PCmnSPjihRI1fnqoOi2/style-guide-lowfi-%26-hifi-(Copy)?t=Gd4PnvirlHxtY8Vd-6
+- Live Site: https://team-cormorant2-tcgen.netlify.app/
 
 <h2> Features</h2>
   <h3>Unaunthenticated User can:</h3>
